@@ -1,1 +1,14 @@
+class String(object):
+        def _init_(self, data):
+            self.data = data
 
+        def getString(self):
+            self.data = raw_input("Enter string: ")
+
+        def printString(self):
+            string = self.data
+            print string.upper()
+
+start = String()
+start.getString()
+start.printString()
